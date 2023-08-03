@@ -10952,12 +10952,12 @@ section.resume-section {
   padding-right: 1rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  max-width: 75rem;
   background-image: url("../assets/img/paper.jpg");
   background-repeat: repeat-x;
 }
 section.resume-section .resume-section-content {
   width: 100%;
+  max-width: 75rem;
 }
 
 @media (min-width: 768px) {
