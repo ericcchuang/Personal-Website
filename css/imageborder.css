@@ -1,6 +1,8 @@
 .customborder {
     border: 5px solid #cebea0;
     border-radius: 5px;
+    float: right;
+    background-color: #FFFFFF;
   }
 
   /*#erichuang{
