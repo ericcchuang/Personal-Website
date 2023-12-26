@@ -10959,7 +10959,7 @@ section.resume-section {
 }
 section.resume-section .resume-section-content {
   width: 100%;
-  max-width: 70%;
+  max-width: 50em;
 }
 
 @media (min-width: 768px) {
