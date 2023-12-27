@@ -12,8 +12,13 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet" type="text/css" />
+
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/imageborder.css" rel="stylesheet" />
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -25,12 +30,10 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
                 </ul>
             </div>
         </nav>
@@ -38,184 +41,232 @@
         <div class="container-fluid p-0">
             <!-- About-->
             <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Eric
-                        <span class="text-primary">Huang</span>
-                    </h1>
-                    <div class="subheading mb-5">
-                        B.S. in Business & Information Systems · NYC Metro Area ·
-                        <a href="mailto:erichuang135@gmail.com">erichuang135@gmail.com</a>
-                    </div>
-                    <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                <div class="resume-section-content" id="erichuang">
+                    <h2 class="mt-5 mb-2">
+                        Hello! I'm Eric Huang.
+                    </h2>
+                    <p class="lead mb-3">I'm a current student at NJIT majoring in Business & Information Systems, with a minor in Designing the User Experience. I aspire to help improve the way businesses and customers interact with technology in their daily life.</p>
+                    <h4>Connect with me below!</h4>
                     <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/eric-huang-a72a64248/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/ericcchuang"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="https://www.instagram.com/erichuang135/"><i class="fab fa-instagram"></i></a>
+                        <div class="">
+                            <a class="social-icon" href="https://www.linkedin.com/in/ericcchuang/"><i class="fab fa-linkedin-in"></i></a> 
+                            <a class="social-icon" href="https://github.com/ericcchuang"><i class="fab fa-github"></i></a>
+                            <a class="social-icon" href="mailto:erichuang135@gmail.com"><i class="fas fa-mail-bulk"></i></a>
+                        </div>
                     </div>
                 </div>
             </section>
             <hr class="m-0" />
+
+            <!-- Projects-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="card-group">
+                        <div class="card w-50">
+                            <img class="card-img-top" src="./assets/img/mywebclass.png"  alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">MyWebClass.org</h5>
+                                <small> by Eric Huang, Sarang Patel, and Kapila Mane</small>
+                                <p class="card-text">Built on ReactJS, this project has an integration with an external API, responsive design for mobile and desktop, and a clean design. Built as a final project for a web development class, where the goal was to advertise a service.</p>
+                                <p class="card-text"><a href="https://njit-wis.github.io/project-2-tier-1-company/">Link</a></p>
+                            </div>
+                        </div>
+
+                        <div class="card w-50">
+                            <img class="card-img-top" src="./assets/img/proxemics.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Proxemics Study</h5>
+                                <small> by Eric Huang and Kapila Mane</small>
+                                <p class="card-text">This website hosts the findings of a research project conducted by Kapila Mane and Eric Huang, for a Research in User Experience course (IS375) at NJIT.</p>
+                              <p class="card-text"><a href="https://ericcchuang.github.io/Proxemics-Website/index.html  ">Link</a></p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--div class="card-group">
+                        <div class="card w-50">
+                            <img class="card-img-top" src="./assets/img/profile.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div class="card w-50">
+                            <img class="card-img-top" src="./assets/img/profile.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div-->
+
+                    </div>
+            </section>
+        <hr class="m-0" />
+
             <!-- Experience-->
-            <section class="resume-section" id="experience">
+            <section class="resume-section" id="resume">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <h2>Resume</h2>
+                    <p class="mb-5">For a downloadable version of my resume, <a href="#">click here!</a></p>
+
+                    <h3 class="mb-3">Work Experience</h3>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Senior Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                            <h4 class="mb-0">Orientation Leader</h4>
+                            <div class="mb-3"><b>New Jersey Institute of Technology</b></div>
+                            <ul>
+                                <li>Welcomed new students to NJIT and eased them into their transition from high school to college </li>
+                                <li>Spoke in front of large groups of students about the college experience and answered questions they had </li>
+                            </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
+                        <div class="flex-shrink-0"><span class=""><b>June 2023 - January 2024</b></span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                            <h4 class="mb-0">Retail Sales Associate</h4>
+                            <div class="mb-3"><b>Macy's Inc</b></div>
+                            <ul>
+                                <li>Organized and kept track of inventory on a computerized system </li>
+                                <li>Arranged physical merchandise on display shelves </li>
+                                <li>Answered customer requests for different colors and sizes of shoes</li>
+                            </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
+                        <div class="flex-shrink-0"><span class=""><b>March 2022 - August 2022</b></span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <hr class="m-10" />
+
+             <!-- Education-->
+                    <h3 class="mb-3">Education</h3>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Junior Web Designer</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                            <h4 class="mb-0">New Jersey Institute of Technology</h4>
+                            <div class="mb-0"><b>Bachelor of Science in Business and Information Systems</b></div>
+                            <div class="mb-2"><b>Albert Dorman Honors College & Ying Wu College of Computing</b></div>
+                            <p>GPA: 3.86<br>
+                                Relevant Coursework:</p>
+                            <ul>
+                                <li>Developing Web Applications</li>
+                                <li>Designing the User Experience</li>
+                                <li>Business Data Analytics</li>
+                            </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
+                        <div class="flex-shrink-0"><span class=""><b>September 2022 - May 2026</b></span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Design Intern</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                            <h4 class="mb-0">John F. Kennedy Memorial High School</h4>
+                            <div class="mb-3"><b>Iselin, NJ</b></div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
+                        <div class="flex-shrink-0"><span class=""><b>September 2018 - June 2022</b></span></div>
                     </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Colorado Boulder</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Web Development Track</div>
-                            <p>GPA: 3.23</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">James Buchanan High School</h3>
-                            <div class="subheading mb-3">Technology Magnet Program</div>
-                            <p>GPA: 3.56</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
+            <hr class="m-10" />
+
             <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
+                    <h3 class="mb-3">Skills</h3>
                     <div class="subheading mb-3">Programming Languages & Tools</div>
                     <ul class="list-inline dev-icons">
                         <li class="list-inline-item"><i class="fab fa-html5"></i></li>
                         <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
                         <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
                         <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-github"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-file-word"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-file-excel"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-file-powerpoint"></i></li>
                     </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
-                        </li>
+                    <ul class="mb-0">
+                         <li>HTML</li>
+                         <li>CSS</li>
+                         <li>JavaScript (node.js, ReactJS)</li>
+                         <li>GitHub</li>
+                         <li>Microsoft Office</li>
+                         <li>Figma</li>
                     </ul>
-                </div>
+            <hr class="m-10" />
+
+            <!-- Volunteering and Leadership-->
+                    <h3 class="mb-3">Volunteering and Leadership</h3>
+                        <div class="d-flex flex-column flex-md-row justify-content-between">
+                            <div class="flex-grow-1">
+                                <h4 class="mb-0">NJIT Student Senate</h4>
+                                <div class="mb-3"><b>Ying Wu College of Computing Represenative / First-Year Representative</b></div>
+                                <ul>
+                                    <li>Served on the Academic Affairs, Student Affairs, and Student Organizations committees</li>
+                                    <li>Drafted and presented proposals the Provost and Deans of YWCC</li>
+                                    <li>Worked behind the scenes to improve academic logistics and campus life </li>
+                                </ul>
+                            </div>
+                            <div class="t-flex flex-shrink-0"><b>September 2022 - Present</b><br><span class=""><a href="http://www.njitstudentsenate.org/"><img class="mx-2 my-2 customborder" src="./assets/img/senate.jpg" height="100px" width="100px"></a></span></div>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row justify-content-between">
+                            <div class="flex-grow-1">
+                                <h4 class="mb-0">Chinese Undergraduate Student Association</h4>
+                                <div class="mb-3"><b>President</b></div>
+                                <ul>
+                                    <li>Organized events and fundraisers to support the Chinese-American community at NJIT for over 100 members</li>
+                                    <li>Managed the logistics of events with over 250 attendees, including budgeting, collaborations, on-stage activites, keeping track of audio/visual equipment, and more</li>
+                                </ul>
+                            </div>
+                            <div class="flex-shrink-0"><b>March 2023 - December 2023</b><br><span class=""><a href="https://njitcusa.carrd.co/#"><img class="mx-2 my-2 customborder" src="./assets/img/cusa.png" height="100px" width="100px"></a></span></div>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row justify-content-between">
+                            <div class="flex-grow-1">
+                                <h4 class="mb-0">Association for Computing Machinery</h4>
+                                <div class="mb-3"><b>Member / Volunteer</b></div>
+                                <ul>
+                                    <li>HackNJIT</li>
+                                </ul>
+                            </div>
+                            <div class="flex-shrink-0"><b>September 2022 - Present</b><br><span class=""><a href="https://njit.acm.org/#/"><img class="mx-2 my-2 customborder" src="./assets/img/acmLogo.png" height="100px" width="120px"></a></span></div>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row justify-content-between">
+                            <div class="flex-grow-1">
+                                <h4 class="mb-0">Key Club</h4>
+                                <div class="mb-3"><b>Member / Volunteer</b></div>
+                                <ul>
+                                    <li>Operation Christmas Child</li>
+                                    <li>Breast Cancer Walk</li>
+                                    <li>Monthly volunteering events</li>
+                                </ul>
+                            </div>
+                            <div class="flex-shrink-0"><b>September 2019 - June 2022</b><br><span class=""><img class="mx-2 my-2 customborder" src="./assets/img/keyclub.jpg" height="100px" width="100px"></span></div>
+                        </div>
+                    </div>
             </section>
-            <hr class="m-0" />
+
             <!-- Interests-->
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                        <div class="card-group">
+                            <div class="card w-50">
+                                <div class="card-body" >
+                                    <h5 class="card-title">Music!</h5>
+                                    <p class="card-text">Music is one of my biggest hobbies! I played piano for my high school's jazz band and school musical, and am continuing to play jazz at NJIT! As well as being a musician, I enjoy listening to a variety of music, including EDM, J-pop, Korean RNB, and more. Check out my Spotify below!</p>
+                                    <p class="card-text"><a href="https://open.spotify.com/user/erichuang135"><i class="fab fa-spotify"></i></a></p>
+                                </div>
+                            </div>
+                            <div class="card w-50">
+                                <div class="card-body">
+                                    <h5 class="card-title">Games!</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div class="card w-50">
+                                <div class="card-body">
+                                    <h5 class="card-title">TV Shows!</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </section>
-            <hr class="m-0" />
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
+        <hr class="m-0" />
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->

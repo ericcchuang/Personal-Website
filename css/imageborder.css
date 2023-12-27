@@ -1,0 +1,15 @@
+.customborder {
+    border: 5px solid rgb(130, 140, 225);
+    border-radius: 5px;
+    float: right;
+    background-color: #FFFFFF;
+  }
+
+  .customborder:hover {
+    border: 5px solid rgb(100, 100, 200);
+  }
+  /*#erichuang{
+    background-image: url("../assets/img/paint.png");
+    background-size: 55%;
+    background-repeat: no-repeat;
+  }*/
