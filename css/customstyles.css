@@ -13,10 +13,18 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
       font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-section.resume-section .resume-section-content {
-    width: 100%;
-    max-width: 50em;
+@media (min-width: 1200px) {
+    section.resume-section .resume-section-content {
+        max-width: 75%;
+    }
 }
+
+@media (max-width: 1200px) {
+    section.resume-section .resume-section-content {
+        max-width: 100%;
+    }
+}
+
 
 .social-icons .social-icon:hover {
     background-color: rgb(var(--bs-primary-rgb));
@@ -26,6 +34,7 @@ section.resume-section {
     background-color: #CCCCCC;
     border-bottom: 5px solid #000000;
     max-width: 100%;
+    min-height: 0px;
 }
 
 body{

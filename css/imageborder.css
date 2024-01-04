@@ -8,6 +8,12 @@
   .customborder:hover {
     border: 5px solid rgb(100, 100, 200);
   }
+
+  #banner{
+    width:100%;
+    height:20em;
+    margin-left:0px;
+  }
   /*#erichuang{
     background-image: url("../assets/img/paint.png");
     background-size: 55%;
