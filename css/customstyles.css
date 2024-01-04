@@ -53,3 +53,11 @@ body{
   .card{
     background-color:var(--bs-gray-200);
   }
+
+  .social-link{
+    max-width: 6.5%;
+    position: relative;
+    float: left;
+    justify-content: center;
+    text-align: left;
+  }
