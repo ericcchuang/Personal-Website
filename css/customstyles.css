@@ -32,7 +32,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 section.resume-section {
     background-color: #CCCCCC;
-    border-bottom: 5px solid #000000;
+    border-bottom: 5px solid rgb(var(--bs-primary-rgb));
     max-width: 100%;
     min-height: 0px;
 }
