@@ -1,6 +1,6 @@
 :root{
     --bs-primary-rgb: 130, 140, 225; /*MAIN COLOR*/
-    --bs-link-color: rgb(var(--bs-primary-rgb));
+    --bs-link-color: rgb(100, 100, 200);
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
