@@ -14,10 +14,13 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="scripts.js"></script>
 
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/imageborder.css" rel="stylesheet" />
+        <link href="css/customstyles.css" rel="stylesheet" />
 
     </head>
     <body id="page-top">
@@ -39,19 +42,27 @@
         </nav>
         <!-- Page Content-->
         <div class="container-fluid p-0">
+            <img src="assets/img/purplebanner.jpg" id="banner">
             <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content" id="erichuang">
-                    <h2 class="mt-5 mb-2">
+                    <h2 class="mb-4">
                         Hello! I'm Eric Huang.
                     </h2>
                     <p class="lead mb-3">I'm a current student at NJIT majoring in Business & Information Systems, with a minor in Designing the User Experience. I aspire to help improve the way businesses and customers interact with technology in their daily life.</p>
-                    <h4>Connect with me below!</h4>
+                    <h4 class="mb-4">What am I up to now?</h4>
+                        <ul>
+                            <li>I'm studying the interactions between information technology and businesses in the thriving e-commerce field.</li>
+                            <li>With my minor, I'm learning how people interact with digital products and services and how to design appealing products and apps.</li>
+                            <li>As a coder and designer, I've created and designed several websites! Some are in the projects section below.</li>
+                            <li>I am an active member of NJIT's Student Senate, representing the Ying Wu College of Computing, meeting with administrators regularly to try to improve quality of life for students.</li>
+                        </ul>
+                    <h4 class="mb-4">Connect with me below!</h4>
                     <div class="social-icons">
-                        <div class="">
-                            <a class="social-icon" href="https://www.linkedin.com/in/ericcchuang/"><i class="fab fa-linkedin-in"></i></a> 
-                            <a class="social-icon" href="https://github.com/ericcchuang"><i class="fab fa-github"></i></a>
-                            <a class="social-icon" href="mailto:erichuang135@gmail.com"><i class="fas fa-mail-bulk"></i></a>
+                        <div>
+                            <div class="social-link mx-2"><a class="social-icon" href="https://www.linkedin.com/in/ericcchuang/"><i class="fab fa-linkedin-in"></i></a><a href="https://www.linkedin.com/in/ericcchuang/">LinkedIn</a></div>
+                            <div class="social-link mx-2"><a class="social-icon" href="https://github.com/ericcchuang"><i class="fab fa-github"></i></a><a href="https://github.com/ericcchuang">GitHub</a></div>
+                            <div class="social-link mx-2"><a class="social-icon" href="mailto:erichuang135@gmail.com"><i class="fas fa-mail-bulk"></i></a><a href="mailto:erichuang135@gmail.com">Email</a></div>
                         </div>
                     </div>
                 </div>
@@ -79,19 +90,21 @@
                                 <h5 class="card-title">Proxemics Study</h5>
                                 <small> by Eric Huang and Kapila Mane</small>
                                 <p class="card-text">This website hosts the findings of a research project conducted by Kapila Mane and Eric Huang, for a Research in User Experience course (IS375) at NJIT.</p>
-                              <p class="card-text"><a href="https://ericcchuang.github.io/Proxemics-Website/index.html  ">Link</a></p>
-
+                              <p class="card-text"><a href="https://ericcchuang.github.io/Proxemics-Website/index.html">Link</a></p>
+                            </div>
+                        </div>
+                        <div class="card w-50">
+                            <img class="card-img-top" src="./assets/img/purplebanner.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Personal Website</h5>
+                                <small> by Eric Huang</small>
+                                <p class="card-text">The website you are looking at right now was created by me!</p>
+                              <p class="card-text"><a href="https://github.com/ericcchuang/Personal-Website">GitHub Link</a></p>
                             </div>
                         </div>
                     </div>
                     <!--div class="card-group">
-                        <div class="card w-50">
-                            <img class="card-img-top" src="./assets/img/profile.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
+
                         <div class="card w-50">
                             <img class="card-img-top" src="./assets/img/profile.jpg" alt="Card image cap">
                             <div class="card-body">
@@ -100,8 +113,7 @@
                             </div>
                         </div>
                     </div-->
-
-                    </div>
+                </div>
             </section>
         <hr class="m-0" />
 
@@ -109,7 +121,7 @@
             <section class="resume-section" id="resume">
                 <div class="resume-section-content">
                     <h2>Resume</h2>
-                    <p class="mb-5">For a downloadable version of my resume, <a href="assets/resume.pdf">click here!</a></p>
+                    <p class="mb-3">For a downloadable version of my resume, <a href="assets/resume.pdf">click here!</a></p>
 
                     <h3 class="mb-3">Work Experience</h3>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
@@ -183,7 +195,8 @@
                          <li>CSS</li>
                          <li>JavaScript (node.js, ReactJS)</li>
                          <li>GitHub</li>
-                         <li>Microsoft Office</li>
+                         <li>Microsoft Office (Excel, PowerPoint, Word)</li>
+                         <li>Adobe Creative Cloud (Photoshop, Illustrator, etc.)</li>
                          <li>Figma</li>
                     </ul>
             <hr class="m-10" />
@@ -241,35 +254,35 @@
             <!-- Interests-->
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
+                    <h2 class="">Interests</h2>
+                        <p><h6>Outside of school, you can find my partaking in other hobbies!</h6></p>
                         <div class="card-group">
                             <div class="card w-50">
                                 <div class="card-body" >
                                     <h5 class="card-title">Music!</h5>
-                                    <p class="card-text">Music is one of my biggest hobbies! I played piano for my high school's jazz band and school musical, and am continuing to play jazz at NJIT! As well as being a musician, I enjoy listening to a variety of music, including EDM, J-pop, Korean RNB, and more. Check out my Spotify below!</p>
+                                    <img class="card-img-top mb-3" src="./assets/img/piano.jpeg" alt="Card image cap">
+                                    <p class="card-text">Music is one of my biggest hobbies! I played piano for my high school's jazz band and school musical, and am continuing to play jazz piano at NJIT! As well as being a musician, I enjoy listening to a variety of music, including EDM, J-pop, Korean RNB, and more. Check out my Spotify below!</p>
                                     <p class="card-text"><a href="https://open.spotify.com/user/erichuang135"><i class="fab fa-spotify"></i></a></p>
                                 </div>
                             </div>
                             <div class="card w-50">
                                 <div class="card-body">
-                                    <h5 class="card-title">Games!</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="card-title">Culture!</h5>
+                                    <img class="card-img-top mb-3" src="./assets/img/culture.jpg" alt="Card image cap">
+                                    <p class="card-text">At NJIT, I am a regular volunteer at both CUSA (Chinese Undergraduate Student Association) and FINEST (Filipinos in Newark Engaging in Sociocultural Traditions). I'm a regular sight at events serving the Asian-American community at NJIT.</p>
                                 </div>
                             </div>
                             <div class="card w-50">
                                 <div class="card-body">
-                                    <h5 class="card-title">TV Shows!</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="card-title">Puzzles!</h5>
+                                    <img class="card-img-top mb-3" src="./assets/img/crossword.jpg" alt="Card image cap">
+                                    <p class="card-text">I enjoy all sorts of puzzles, such as crossword puzzles and riddles. The particular crossword listed above is from NJIT's student run newspaper, The Vector. I also really enjoy Wordle and Connections by the New York Times.</p>
                                 </div>
                             </div>
                         </div>
                 </div>
             </section>
         <hr class="m-0" />
-
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        </div>
     </body>
 </html>
