@@ -54,8 +54,8 @@ body{
     background-color:var(--bs-gray-200);
   }
 
-  .social-link{
-    max-width: 6.5%;
+.social-link{
+    max-width: 5em;
     position: relative;
     float: left;
     justify-content: center;
