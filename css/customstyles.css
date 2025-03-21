@@ -35,6 +35,8 @@ section.resume-section {
     border-bottom: 5px solid rgb(var(--bs-primary-rgb));
     max-width: 100%;
     min-height: 0px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 body{
