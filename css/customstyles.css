@@ -68,12 +68,19 @@ body {
     background-color: var(--bs-gray-200);
 }
 
+.social-icons {
+    display: flex;
+    flex-direction: row;
+}
+
 .social-link {
-    max-width: 5em;
-    position: relative;
-    float: left;
+    flex-direction: column;
     justify-content: center;
-    text-align: left;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 1vw;
+
 }
 
 .customborder {
