@@ -88,6 +88,8 @@ body {
     border-radius: 5px;
     float: right;
     background-color: #FFFFFF;
+    margin-top: 1vw;
+    margin-left: 1vw;
 }
 
 .card-img-top {
