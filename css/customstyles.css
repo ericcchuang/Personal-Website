@@ -28,7 +28,7 @@ h1,
 
 @media (min-width: 1200px) {
     section.resume-section .resume-section-content {
-        max-width: 75%;
+        max-width: 80%;
     }
 }
 
@@ -37,7 +37,6 @@ h1,
         max-width: 100%;
     }
 }
-
 
 .social-icons .social-icon:hover {
     background-color: rgb(var(--bs-primary-rgb));
@@ -82,6 +81,13 @@ body {
     border-radius: 5px;
     float: right;
     background-color: #FFFFFF;
+}
+
+.card-img-top {
+    height: 35vh;
+    object-fit: cover;
+    object-position: top;
+    border-bottom: solid var(--bs-gray-500)
 }
 
 .customborder:hover {
