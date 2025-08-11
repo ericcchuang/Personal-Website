@@ -3623,7 +3623,8 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
-  font-size: var(--bs-nav-link-font-size);
+  /*font-size: var(--bs-nav-link-font-size);*/  
+  font-size: 24px;
   font-weight: var(--bs-nav-link-font-weight);
   color: var(--bs-nav-link-color);
   text-decoration: none;
@@ -10874,7 +10875,7 @@ p.lead {
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
